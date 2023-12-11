@@ -1,0 +1,286 @@
+/* ********section1 bar de navigation******** */
+nav{
+    text-decoration: none;
+    text-align: right;
+    color: #00b39b;
+    padding:0 20px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    word-spacing: 10px;
+}
+.bar a{
+    color: #00b39b;
+    text-decoration: none;
+
+}
+
+h1{
+    
+    height: 10px;
+    width: 100%;
+    color: white;    
+}
+
+.flex{
+    display: flex; 
+   background-color:white ;
+   margin: 0 10px;
+   justify-items: auto;
+   justify-content: space-between;
+  
+
+}
+
+/* *********section2****** */
+#logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#titre{
+    color:#00b39b;
+    text-align: center;
+    font-weight: 300;
+    font-family:Work Sans,Arial,sans-serif; ;
+}
+
+.contener{
+    display: flex;
+    height: -20px;
+}
+
+.paragraphe{
+    margin: 0px 60px;
+    margin-bottom: 20px;
+    font-family: Roboto, Arial, sans-serif;    
+}
+
+div{
+    display: block;
+}
+/* ********section 3******* */
+.block{
+    display: flex; 
+   background-color:white ;
+   margin: 0 10px;
+   justify-items: auto;
+   justify-content: space-between;
+  height: 330px;
+  color: #00b39b;
+}
+/* #block{
+    word-spacing: 18px;
+    font: 24px"work sans",Arial;
+    
+} */
+
+h2,a{
+    color:white;
+    }
+ 
+
+#block1{
+    padding: 0px 10px;
+    background-color: #00b39b;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+#block2{
+    background-color: blue;
+    padding:0 10px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+
+#block3{
+    background-color:rgb(66, 63, 63);
+    margin: 0 10px;
+    border-radius: 6px;
+    padding:0 10px;
+}
+/* ******section4****** */
+.log{
+    display: flex;
+    margin-right: 0px;
+    justify-content: flex-end;
+    padding: 40px 10px;
+}
+h5{
+    font-size: 24px;
+    font-family: 24px"work sans" Arial, sans-serif;
+    color: #00b39b;
+    margin: 20px 30px 20px 5px;
+    padding: 0px 30px;
+}  
+
+.petit_logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    justify-content: flex-end;
+}
+.petit_logo img{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    width: 100px;
+    height: 20px;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+
+/* ******section5***** */
+
+/*.article{
+    background-color: lightblue;
+    display: flex;
+    width: 100%; 
+
+}*/
+
+/* #case{
+    margin:  10px;
+    font-family : Roboto, Arial, sans-serif;
+     /* background-color: white; */
+     /*height: 100px;
+     text-align: center;
+    
+    
+
+} */
+
+/* .petit_logo::after{
+    content: "";
+    flex-grow: 1000;
+} */
+img{
+    border-radius: 5px;
+}
+/* *****section6 photo ****** */
+.art{
+    text-align: center;
+    margin: 50px 25%;
+}
+
+h3{
+    color: #00b39b;
+    font-size: 24px;
+    font: 30px"work sans",Arial;
+}
+
+#photo{
+    width: 95%;
+    display: flex;
+    margin: 5px 5px auto;
+    flex-wrap: wrap;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+#image_prestation{
+    width: 235px;
+    background-color:white;
+    float: left;
+    margin: 276px -280px 0px 0px;
+    text-align: center;
+}
+#image_prestation1{
+    background: url(warsaw.png) no-repeat;
+    height: 300px;
+    width: 315px;
+    border-radius: 6px;
+}
+#image_prestation2{
+    background: url(barcelona.png) no-repeat;
+    height: 300px;
+    width: 315px;
+    border-radius: 6px;
+}
+#image_prestation3{ 
+    background: url(munich.png) no-repeat;
+    height: 300px;
+    width: 315px;
+    border-radius: 6px;
+}
+#image_prestation4{
+     background: url(istanbul.png) no-repeat;
+     height: 300px;
+     width: 315px;
+     border-radius: 6px;
+    }
+#image_prestation5{
+     background: url(rome.png) no-repeat;
+     height: 300px;
+     width: 315px;
+     border-radius: 6px;
+    }
+#image_prestation6{ 
+    background: url(rome.png) no-repeat;
+    height: 300px;
+    width: 315px;
+    border-radius: 6px;
+}
+#image_prestation7{
+     background: url(curitiba.png) no-repeat;
+     height: 300px;
+     width: 315px;
+     border-radius: 6px;
+    }
+#image_prestation8{ 
+    background: url(rio-janeiro.png) no-repeat;
+    height: 300px;
+    width: 315px;
+    border-radius: 6px;
+}
+#image_prestation9{
+     background: url(mexico-city.png) no-repeat;
+     height: 300px;
+     width: 315px;
+    }
+#image_prestation10{
+    background: url(bogota.png) no-repeat;
+    height: 280px;
+    width: 315px;
+    border-radius: 6px;
+}
+h4{
+    background-color: white;
+    margin: 240px -300px 0 0;
+    height: 40px;
+    
+}
+button{
+    background-color: rgb(0, 119, 255);
+    border-radius: 4px;
+}
+/* ******footer section7********** */
+footer{
+    text-align: center;
+    width: 100%;
+}
+#bouton{
+    background-color: rgb(0, 102, 255);
+    border-radius: 2px;
+    text-transform: uppercase;
+    height: 40px;
+    border: none;
+    font: 24px"work sans",Roboto,Arial,sans-serif;
+}
+#phrase{
+    font-size: 35px;
+}
+
+
+
